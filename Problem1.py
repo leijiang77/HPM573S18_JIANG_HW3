@@ -60,7 +60,7 @@ class Hospital:
         """
 
     def admit(self,patients):
-        self.patients = dict()
+        self.patients = patients
         self.patients.append(patients)
         for patient in self:
             patients = type(self)
